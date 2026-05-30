@@ -1,0 +1,78 @@
+{
+  "skill_name": "example-skill",
+  "skill_version": "1.0.0",
+  "test_time": "2026-05-31T06:03:49.910379",
+  "runs": 3,
+  "performance": {
+    "avg_execution_time_ms": 173.09,
+    "min_execution_time_ms": 173.08,
+    "max_execution_time_ms": 173.09,
+    "std_dev_ms": 0.01
+  },
+  "quality": {
+    "avg_score": 90.0,
+    "min_score": 90,
+    "max_score": 90,
+    "consistency": "Excellent"
+  },
+  "detailed_results": [
+    {
+      "run_id": 1,
+      "timestamp": "2026-05-31T06:03:49.563948",
+      "input": "你是一个专业的代码分析助手。\n请分析以下代码并提供优化建议：\n\n测试输入\n\n请提供：\n1. 代码问题分析\n2. 优化建议\n3. 改进后的代码示例\n",
+      "timing": {
+        "execution_time_ms": 173.08,
+        "simulated": true
+      },
+      "output_quality": {
+        "score": 90,
+        "length": 123,
+        "has_code": false,
+        "has_structure": false,
+        "issues": [
+          "Low keyword coverage: 0.0%"
+        ]
+      },
+      "mock_output": "Mock output for skill 'example-skill'. Input was: 你是一个专业的代码分析助手。\n请分析以下代码并提供优化建议：\n\n测试输入\n\n请提供：\n1. 代码问题分析\n2. 优化建议\n3. 改进后的代码示例\n"
+    },
+    {
+      "run_id": 2,
+      "timestamp": "2026-05-31T06:03:49.737159",
+      "input": "你是一个专业的代码分析助手。\n请分析以下代码并提供优化建议：\n\n测试输入\n\n请提供：\n1. 代码问题分析\n2. 优化建议\n3. 改进后的代码示例\n",
+      "timing": {
+        "execution_time_ms": 173.09,
+        "simulated": true
+      },
+      "output_quality": {
+        "score": 90,
+        "length": 123,
+        "has_code": false,
+        "has_structure": false,
+        "issues": [
+          "Low keyword coverage: 0.0%"
+        ]
+      },
+      "mock_output": "Mock output for skill 'example-skill'. Input was: 你是一个专业的代码分析助手。\n请分析以下代码并提供优化建议：\n\n测试输入\n\n请提供：\n1. 代码问题分析\n2. 优化建议\n3. 改进后的代码示例\n"
+    },
+    {
+      "run_id": 3,
+      "timestamp": "2026-05-31T06:03:49.910354",
+      "input": "你是一个专业的代码分析助手。\n请分析以下代码并提供优化建议：\n\n测试输入\n\n请提供：\n1. 代码问题分析\n2. 优化建议\n3. 改进后的代码示例\n",
+      "timing": {
+        "execution_time_ms": 173.09,
+        "simulated": true
+      },
+      "output_quality": {
+        "score": 90,
+        "length": 123,
+        "has_code": false,
+        "has_structure": false,
+        "issues": [
+          "Low keyword coverage: 0.0%"
+        ]
+      },
+      "mock_output": "Mock output for skill 'example-skill'. Input was: 你是一个专业的代码分析助手。\n请分析以下代码并提供优化建议：\n\n测试输入\n\n请提供：\n1. 代码问题分析\n2. 优化建议\n3. 改进后的代码示例\n"
+    }
+  ],
+  "recommendation": "Low keyword coverage: 0.0% (出现 3 次)"
+}

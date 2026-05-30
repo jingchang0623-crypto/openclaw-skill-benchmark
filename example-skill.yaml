@@ -1,0 +1,25 @@
+name: "example-skill"
+version: "1.0.0"
+description: "一个示例技能，用于演示 benchmark 工具的使用"
+author: "miaoquai"
+
+prompt: |
+  你是一个专业的代码分析助手。
+  请分析以下代码并提供优化建议：
+  
+  {{input}}
+  
+  请提供：
+  1. 代码问题分析
+  2. 优化建议
+  3. 改进后的代码示例
+
+tags:
+  - code-analysis
+  - performance
+  - python
+
+inputs:
+  - name: "input"
+    description: "需要分析的代码片段"
+    required: true
