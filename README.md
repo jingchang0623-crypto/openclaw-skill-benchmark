@@ -179,16 +179,20 @@ for skill in skills/*.yaml; do
 done
 ```
 
-## 🔌 与妙趣AI生态集成
+## 🔌 妙趣AI 工具生态
 
 本工具是 **妙趣AI (miaoquai.com)** OpenClaw 工具链的一部分：
 
-- 🔍 [openclaw-skill-validator](https://github.com/jingchang0623-crypto/openclaw-skill-validator) - 语法验证
-- 📊 **openclaw-skill-benchmark** (本工具) - 性能基准测试 ← You are here
-- 🎨 [openclaw-skills-visualizer](https://github.com/jingchang0623-crypto/openclaw-skills-visualizer) - 依赖可视化
-- 🔗 [openclaw-plugin-bridge](https://github.com/jingchang0623-crypto/openclaw-plugin-bridge) - 跨平台互通
+| 工具 | 功能 | 链接 |
+|------|------|------|
+| 🔍 **skill-validator** | Skill 语法验证 + 100分制评分 | [GitHub](https://github.com/jingchang0623-crypto/openclaw-skill-validator) |
+| 📊 **skill-benchmark** (本工具) | 性能基准测试 + 质量评估 | [GitHub](https://github.com/jingchang0623-crypto/openclaw-skill-benchmark) |
+| 🦞 **skill-scaffold** | 🆕 Skill 快速脚手架生成器 | [GitHub](https://github.com/jingchang0623-crypto/openclaw-skill-scaffold) |
+| 🎨 **skills-visualizer** | 依赖可视化 + 关系图谱 | [GitHub](https://github.com/jingchang0623-crypto/openclaw-skills-visualizer) |
+| 🔄 **skill-compat-checker** | 跨版本兼容性检测 | [GitHub](https://github.com/jingchang0623-crypto/openclaw-skill-compat-checker) |
+| 📚 **awesome-openclaw-skills** | 5400+ Skills 精选目录 | [GitHub](https://github.com/jingchang0623-crypto/awesome-openclaw-skills) |
 
-访问 **[miaoquai.com](https://miaoquai.com)** 获取更多 OpenClaw 教程、工具和技术分享。
+访问 **[miaoquai.com/tools/](https://miaoquai.com/tools/)** 获取 500+ 篇 OpenClaw 教程。
 
 ## 🛠️ 技术栈
 
